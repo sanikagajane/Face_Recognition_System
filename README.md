@@ -1,4 +1,4 @@
-# Face Recognition Attendance System
+# Face Recognition System
 
 This project uses Deep Learning to automatically mark attendance from a group image.
 
@@ -38,6 +38,14 @@ This project uses Deep Learning to automatically mark attendance from a group im
 ```bash
 pip install keras-facenet mtcnn opencv-python numpy pandas matplotlib seaborn
 python main.py
+
+**#  Output**
+- Detects faces in group image
+- Recognizes persons using FaceNet
+- Saves attendance in CSV
+- Displays graph using Seaborn
+
+⭐ If you like this project, give it a star!
 
 
 
